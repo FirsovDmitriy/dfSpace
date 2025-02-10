@@ -1,0 +1,13 @@
+.Link {
+  color: #919EAB;
+}
+
+.Link:hover {
+  transition: color 0.4s ease-in-out;
+  color: #5BE49B;
+}
+
+.Link_Active {
+  /* FIXME: color */
+  color: deeppink;
+}
