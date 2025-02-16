@@ -28,7 +28,10 @@ const NoProjects = () => {
         </Box>
 
         <Modal open={open} onClose={handleClose}>
-          <Box>Hello Mui...</Box>
+          <React.Fragment>
+            <Box>Hello Mui...</Box>
+            <Slot />
+          </React.Fragment>
         </Modal>
       </Box>
     </React.Suspense>
@@ -36,3 +39,7 @@ const NoProjects = () => {
 }
 
 export default NoProjects
+
+const Slot = () => {
+  return <div>Slot</div>
+}

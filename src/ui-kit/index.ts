@@ -8,6 +8,9 @@ export * from './router-link'
 export { default as Typography } from './typography'
 export * from './typography'
 
+export * from './icon-button'
+export { default as IconButton } from './icon-button'
+
 export { default as Button } from './button'
 export { default as Box } from './box'
 export { default as Avatar } from './avatar'

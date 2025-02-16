@@ -1,10 +1,10 @@
-import { RouteObject } from "react-router-dom";
-import NoProjects from "./components/no-projects";
-import Main from "../../components/Main";
-import ListProjects from "./components/list-projects";
-import { routes } from "../../routes/route";
+import { RouteObject } from 'react-router-dom'
+import NoProjects from './components/no-projects'
+import Main from '../../components/Main'
+import ListProjects from './components/list-projects'
+import { routes } from '../../routes/route'
 
-const isEmpty = true;
+const isEmpty = false
 
 const routes2: RouteObject[] = [
   {
@@ -23,6 +23,6 @@ const routes2: RouteObject[] = [
       // { path: "*", element: <NoMatch /> },
     ],
   },
-];
+]
 
 export default routes2

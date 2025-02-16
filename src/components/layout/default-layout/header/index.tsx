@@ -48,6 +48,7 @@ const Header = () => {
         </Box>
         <Button
           onClick={handleOpen}
+          variant='outlined'
           sx={{
             display: 'flex',
             gap: '8px',
